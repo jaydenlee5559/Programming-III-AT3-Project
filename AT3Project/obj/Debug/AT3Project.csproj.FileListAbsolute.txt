@@ -1,0 +1,42 @@
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\bin\Debug\AT3Project.exe.config
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\bin\Debug\AT3Project.exe
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\bin\Debug\AT3Project.pdb
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\AT3Project.csprojAssemblyReference.cache
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\AT3Project.LoginForm.resources
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\AT3Project.Properties.Resources.resources
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\AT3Project.csproj.GenerateResource.cache
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\AT3Project.csproj.CoreCompileInputs.cache
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\AT3Project.exe
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\AT3Project.pdb
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\bin\Debug\Interop.WMPLib.dll
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\Interop.WMPLib.dll
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\AT3Project.csproj.ResolveComReference.cache
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\AT3Project.MusicPlayer.resources
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\AT3Project.MusicLibrary.resources
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\bin\Debug\LumenWorks.Framework.IO.dll
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\bin\Debug\LumenWorks.Framework.IO.pdb
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\bin\Debug\LumenWorks.Framework.IO.xml
+C:\Users\Jun Yang\source\repos\AT3Project\AT3Project\obj\Debug\AT3Project.csproj.CopyComplete
+D:\Programming III\Final Project\AT3Project\AT3Project\bin\Debug\AT3Project.exe.config
+D:\Programming III\Final Project\AT3Project\AT3Project\bin\Debug\AT3Project.exe
+D:\Programming III\Final Project\AT3Project\AT3Project\bin\Debug\AT3Project.pdb
+D:\Programming III\Final Project\AT3Project\AT3Project\bin\Debug\LumenWorks.Framework.IO.dll
+D:\Programming III\Final Project\AT3Project\AT3Project\bin\Debug\LumenWorks.Framework.IO.pdb
+D:\Programming III\Final Project\AT3Project\AT3Project\bin\Debug\LumenWorks.Framework.IO.xml
+D:\Programming III\Final Project\AT3Project\AT3Project\bin\Debug\Interop.WMPLib.dll
+D:\Programming III\Final Project\AT3Project\AT3Project\bin\Debug\AxInterop.WMPLib.dll
+D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.csprojAssemblyReference.cache
+D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\Interop.WMPLib.dll
+D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AxInterop.WMPLib.dll
+D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.csproj.ResolveComReference.cache
+D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.LoginForm.resources
+D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.MusicPlayer.resources
+D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.Properties.Resources.resources
+D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.csproj.GenerateResource.cache
+D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.csproj.CopyComplete
+D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.exe
+D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.pdb
+D:\Programming III\Final Project\AT3Project\AT3Project\bin\Debug\CsvHelper.dll
+D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.csproj.CoreCompileInputs.cache
