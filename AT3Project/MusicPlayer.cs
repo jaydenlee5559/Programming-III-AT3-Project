@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Windows.Forms;
+using CsvHelper;
 /*Name: Jun Yang LEE (Jayden)
  * ID: 30003668
  * Task: AT3 Final Project
@@ -47,7 +49,7 @@ namespace AT3Project
         {
             listBoxSong.Items.Clear();//clear all list box items
 
-            foreach (var songs in displayList) //loop thru the display list and add every songs back into list box
+            foreach (var songs in mySongs) //loop thru the display list and add every songs back into list box
             {
                 listBoxSong.Items.Add(songs);
             }
@@ -115,7 +117,7 @@ namespace AT3Project
 
             catch (Exception ex)
             {
-                MessageBox.Show("No last song in the list");
+                MessageBox.Show("No last song in the list" + ex);
             }
         }
         //method to add song into linked list
@@ -131,7 +133,8 @@ namespace AT3Project
                 string newSong = filePath.ToString(); //convert the file into String variable 
                 mySongs.AddLast(newSong); // add the full path file name into linked list in order to play song
                 displayList.Add(fileWOExt); // add the only file name to display list
-                listBoxSong.Items.Add(fileWOExt); //dispaly in the listbox
+                //listBoxSong.Items.Add(fileWOExt); //dispaly in the listbox
+                listBoxSong.Items.Add(newSong);
 
             }
             else
@@ -212,7 +215,7 @@ namespace AT3Project
 
             listBoxSong.Items.Clear();
             //add the sorted song into list box
-            foreach (var songs in displayList)
+            foreach (var songs in mySongs)
             {
                 listBoxSong.Items.Add(songs);
             }
@@ -247,8 +250,16 @@ namespace AT3Project
         //Search button using binary search method  
         private void BtnSearch_Click_1(object sender, EventArgs e)
         {
-            string search = tbSearch.Text; //capture search text from user input
-            int result = binarySearch(displayList, search); //Question 4 - Contain searching technique implement binarySearch
+            List<string> search = new List<string>();
+
+            foreach(string items in listBoxSong.Items)
+            {
+                search.Add(items);
+                
+            }
+            
+            string userSearch = tbSearch.Text; //capture search text from user input
+            int result = binarySearch(search, userSearch); //Question 4 - Contain searching technique implement binarySearch
 
             //if result not found
             if (result == -1)
@@ -270,11 +281,13 @@ namespace AT3Project
             {
                 using (var writer = new StreamWriter(@"D:\Programming III\Final Project\AT3Project\data.csv")) //path location to save the data.csv file
                 {
-                    using (var csv = new CsvHelper.CsvWriter(writer)) // using third party library csv writer
+
+                    using (var csv = new CsvWriter(writer)) // using third party library csv writer
                     {
 
-                        foreach (var songs in displayList)
+                        foreach (var songs in mySongs)
                         {
+
                             csv.WriteField(songs);// add song in cell
                             csv.NextRecord(); // add in every row if has next record
                         }
@@ -289,5 +302,38 @@ namespace AT3Project
             }
         }
 
+        //Import library from export data back into library list
+        private void btnImport_Click(object sender, EventArgs e)
+        {
+            listBoxSong.Items.Clear(); //clear the list box in case there is previous data
+            string value; //declare empty string variable ;
+            try
+            {
+                using (var reader = new StreamReader(@"D:\Programming III\Final Project\AT3Project\data.csv")) //read from this file path
+                {
+                    using (var csv = new CsvReader(reader))// using third party library csv reader
+                    {
+                        csv.Configuration.HasHeaderRecord = false; // csv file no header records
+                        while (csv.Read())
+                        {
+                            for (int i = 0; csv.TryGetField<string>(i, out value); i++) // read every field records
+                            {
+                                listBoxSong.Items.Add(value); //display into listbox
+                                mySongs.AddLast(value); //adding back into song linked list
+                                tbNoSongs.Text = NumberOfSongs().ToString();
+                                
+                            }
+                        }
+                        MessageBox.Show("Imported successfully");
+
+                    }
+
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Exception: " + ex.Message);
+            }
+        }
     }
 }

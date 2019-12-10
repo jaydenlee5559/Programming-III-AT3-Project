@@ -39,4 +39,4 @@ D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.cspr
 D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.exe
 D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.pdb
 D:\Programming III\Final Project\AT3Project\AT3Project\bin\Debug\CsvHelper.dll
-D:\Programming III\Final Project\AT3Project\AT3Project\obj\Debug\AT3Project.csproj.CoreCompileInputs.cache
+D:\Programming III\Final Project\AT3Project\AT3Project\bin\Debug\CsvHelper.xml
